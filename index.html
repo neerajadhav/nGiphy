@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="shortcut icon" href="./src/icon.png" type="image/x-icon">
+    <title>nGIPHY</title>
+</head>
+
+<body class="bg-black text-white">
+    <header class="border-b border-gray-600">
+        <div class="container p-3 flex mx-auto">
+            <div class="w-2/10 p-3">
+                <img src="./src/Neeraj.png" class="w-[120px]" alt="logo">
+            </div>
+            <div class="w-8/10 p-1 px-3 bg-white text-black rounded w-full h-10 my-auto">
+                <input id="query" class="w-full h-full focus:outline-none" type="text" name="search" placeholder="Search..." onkeyup="nSearch()">
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container p-3 mx-auto">
+            <section id="searchgif" class="flex flex-wrap"></section>
+            <p class="p-3"><b>🚀 Trending</b></p>
+            <section id="trendinggif" class="flex flex-wrap"></section>
+        </div>
+    </section>
+</body>
+<!--<script>
+    for (var i = 0; i < 40; i++) {
+        var randomWidth = getRandomInt(200, 800);
+        var randomHeight = getRandomInt(200, 800);
+        document.getElementById('imgGrid').innerHTML += '<div class="h-[200px] grow m-1"><img class="object-cover max-w-full min-w-full h-[200px] rounded" src="https://picsum.photos/' + randomWidth + '/' + randomHeight + '/" alt="randomPic" /></div>';
+    }
+
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+</script>-->
+<script src="./src/script.js"></script>
+</html>
