@@ -24,3 +24,4 @@ GIPHY Search gives you instant access to our library of millions of GIFs and Sti
 ``` javascript
 api.giphy.com/v1/gifs/search
 ```
+[For more information read here...](https://gdscsitrc.hashnode.dev/web-development-welcome-challenge)
